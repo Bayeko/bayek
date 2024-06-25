@@ -1,0 +1,17 @@
+bash
+# Clone the repository
+git clone <repository_url>
+
+# Move into the repository directory
+cd <repository_name>
+
+# Copy your Jupyter notebook file into the repository directory
+
+# Add the file to the staging area
+git add <notebook_file>
+
+# Commit the changes
+git commit -m "Add Jupyter notebook file"
+
+# Push the changes to GitHub
+git push origin main
